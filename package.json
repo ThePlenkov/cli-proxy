@@ -28,5 +28,6 @@
     "verdaccio": "^5.0.4"
   },
   "nx": {},
-  "dependencies": {}
+  "dependencies": {},
+  "workspaces":["packages/*"]
 }

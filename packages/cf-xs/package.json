@@ -6,5 +6,13 @@
   },
   "type": "commonjs",
   "main": "./src/index.js",
-  "typings": "./src/index.d.ts"
+  "typings": "./src/index.d.ts",
+  "directories": {
+    "bin": "./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theplenkov-npm/cli-proxy.git",
+    "directory": "packages/cf-xs"
+  }
 }

@@ -1,10 +1,10 @@
 import {ChildProcessWithoutNullStreams} from "child_process";
 
 export class SpawnProxy {
-  protected onStdout(data: any) {
+  protected onStdout(data: Uint8Array | string) {
     process.stdout.write(data);
   }
-  protected onStderr(data: any) {
+  protected onStderr(data: Uint8Array | string) {
     process.stdout.write(data);
   }
   protected onClose(code?: number ) {
