@@ -14,5 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/theplenkov-npm/cli-proxy.git",
     "directory": "packages/cf-xs"
-  }
+  },
+  "version": "0.2.1"
 }
