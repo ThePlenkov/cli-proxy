@@ -23,8 +23,8 @@
         "assets": [
           "{projectRoot}/*.md",
           {
-            "glob": "{projectRoot}/bin-out/*",
-            "input": ".",
+            "input": "{projectRoot}/bin-out",
+            "glob": "*",
             "output": "./bin"
           }
         ]
