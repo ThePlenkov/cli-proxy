@@ -27,5 +27,9 @@
         "targetName": "test"
       }
     }
-  ]
+  ],
+  "namedInputs": {
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"],
+    "default": ["sharedGlobals"]
+  }
 }
