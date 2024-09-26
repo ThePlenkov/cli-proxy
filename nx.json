@@ -16,7 +16,7 @@
   },
   "release": {
     "versionPlans": false,
-    "projectsRelationship": "independent",
+    "projectsRelationship": "fixed",
     "changelog": {
       "projectChangelogs": {
         "entryWhenNoChanges": false
