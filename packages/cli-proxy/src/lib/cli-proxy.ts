@@ -1,5 +1,5 @@
-import {spawn} from "node:child_process";
-import {SpawnProxy} from "./spawn-proxy";
+import { spawn } from 'node:child_process';
+import { SpawnProxy } from './spawn-proxy';
 
 type Subcommand = (args: string[]) => void;
 
@@ -31,9 +31,9 @@ export class CliProxy {
     this.spawn(commandArgs);
   }
   protected spawn(args: string[], handler = new SpawnProxy()) {
-    const child = spawn(this.command, args, {stdio: "pipe"});
+    const child = spawn(this.command, args, { stdio: 'pipe' });
     handler.registerChild(child);
   }
 }
 
-export {SpawnProxy};
+export { SpawnProxy };
