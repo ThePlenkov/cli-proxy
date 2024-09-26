@@ -2,7 +2,7 @@
   "name": "cf-xs",
   "dependencies": {
     "tslib": "^2.3.0",
-    "cli-proxy": "*"
+    "cli-proxy": "0.2.3"
   },
   "type": "commonjs",
   "main": "./src/index.js",
@@ -15,5 +15,5 @@
     "url": "git+https://github.com/theplenkov-npm/cli-proxy.git",
     "directory": "packages/cf-xs"
   },
-  "version": "0.2.2"
+  "version": "0.2.3"
 }
