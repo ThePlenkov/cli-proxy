@@ -2,7 +2,7 @@
   "name": "cf-xs",
   "dependencies": {
     "tslib": "^2.3.0",
-    "cli-proxy": "0.0.1"
+    "cli-proxy": "workspace:*"
   },
   "type": "commonjs",
   "main": "./src/index.js",
