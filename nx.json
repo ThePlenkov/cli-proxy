@@ -23,10 +23,7 @@
       }
     },
     "version": {
-      "generatorOptions": {
-        "packageRoot": "{projectRoot}",
-        "currentVersionResolver": "git-tag"
-      }
+      "conventionalCommits": true
     },
     "conventionalCommits": {
       "types": {

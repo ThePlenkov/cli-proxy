@@ -4,6 +4,12 @@
   "sourceRoot": "cf-xs/src",
   "projectType": "library",
   "tags": [],
+  "version": {
+    "generatorOptions": {
+      "packageRoot": "{projectRoot}",
+      "currentVersionResolver": "git-tag"
+    }
+  },
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
