@@ -15,8 +15,22 @@
     }
   },
   "release": {
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": {
+        "entryWhenNoChanges": false
+      }
+    },
     "version": {
-      "preVersionCommand": "npx nx run-many -t build"
+      "conventionalCommits": true
+    },
+    "conventionalCommits": {
+      "types": {
+        "docs": false,
+        "chore": {
+          "changelog": false
+        }
+      }
     }
   },
   "plugins": [
