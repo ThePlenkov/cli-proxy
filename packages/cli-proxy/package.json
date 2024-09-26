@@ -10,5 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/theplenkov-npm/cli-proxy.git",
     "directory": "packages/cli-proxy"
-  }
+  },
+  "version": "0.2.2"
 }
