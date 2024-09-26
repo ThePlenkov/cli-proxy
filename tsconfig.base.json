@@ -13,7 +13,7 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "cf-xs": ["packages/cf-xs/src/index.ts"],
       "cli-proxy": ["packages/cli-proxy/src/index.ts"]
