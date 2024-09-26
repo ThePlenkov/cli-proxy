@@ -1,0 +1,32 @@
+{
+  "name": "cf-xs",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "cf-xs/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/cf-xs",
+        "main": "cf-xs/src/index.ts",
+        "tsConfig": "cf-xs/tsconfig.lib.json",
+        "assets": ["cf-xs/*.md"]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    }
+  }
+}

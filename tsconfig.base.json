@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "cli-proxy": ["lib/src/index.ts"]
+      "cf-xs": ["packages/cf-xs/src/index.ts"],
+      "cli-proxy": ["packages/cli-proxy/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
