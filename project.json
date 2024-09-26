@@ -9,6 +9,14 @@
         "config": ".verdaccio/config.yml",
         "storage": "tmp/local-registry/storage"
       }
+    },
+    "nx-release-publish":{
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build":{
+      "dependsOn": ["^build"]
     }
   }
 }
